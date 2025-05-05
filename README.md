@@ -1,16 +1,15 @@
 # compilerP3
+
 Sorry Franz, we fucked up. Now we seek to amend it.
-
-
 
 # This time, there are no excuses
 
 ## Start by rewriting the tokenizer
 
-## Set up a ton of enums
+# Set up a ton of enums
 
-## Token types set up 
-    
+## Token types set up
+
     Number(isize),
     Identifier(String),
     Plus,
@@ -44,4 +43,4 @@ Sorry Franz, we fucked up. Now we seek to amend it.
     Let,
     Main,
     Void,
-    EOF,
+    EOF
