@@ -1,3 +1,4 @@
+use crate::tokenizer::tokens::Token;
 pub struct Tokenizer {
     input: Vec<u8>,
     pos: usize,
@@ -149,5 +150,15 @@ impl Tokenizer {
 
         self.next_char();
         token
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn base_test() {
+        assert_eq!(10, 10)
     }
 }
